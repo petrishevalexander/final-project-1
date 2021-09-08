@@ -6,9 +6,6 @@ const reducers = combineReducers ({
     pokemonListPage: pokemonListReducer,
     profilePage: profileReducer,
 })
-
-// store - наше хранилище с данными
-// createStore -  создает хранилище
 let store = createStore(reducers);
 
 window.store = store;

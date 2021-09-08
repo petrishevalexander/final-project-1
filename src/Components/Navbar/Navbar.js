@@ -1,10 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-// NavLink переключение происходит в рамках страницы, страница сама не перезагружается
-// <NavLink> Специальная версия <Link> , которая добавит атрибуты стиля к отображаемому элементу, 
-// когда он будет соответствовать текущему URL.
-
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-success">
